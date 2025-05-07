@@ -4,6 +4,14 @@ LANGUAGE TRANSLATOR PROJECT
 
 1. Install Requirements:
    pip install googletrans==4.0.0-rc1
+----if facing error in this use the commands in sequence
+i) mkdir language_translator_project
+ii) cd language_translator_project
+iii) python3 -m venv venv
+iv) source venv/bin/activate
+v) venv\Scripts\activate
+vi) pip install googletrans==4.0.0-rc1
+
 
 2. Compile the C programs:
    gcc server.c -o server
